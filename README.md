@@ -39,8 +39,6 @@ Say, the blob list obtained in step 1 looks like this and you want to remove all
 - Also, please refer to https://ownyourbits.com/2017/01/18/completely-remove-a-file-from-a-git-repository-with-git-forget-blob/ for precautions.
 
 ```
-1. $ sudo wget https://raw.githubusercontent.com/nachoparker/git-forget-blob/master/git-forget-blob.sh -O ./git-forget-blob
-
 1. $ sudo chmod +x git-forget-blob
 
 2. Now, commit and push the repo.
