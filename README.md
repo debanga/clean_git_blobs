@@ -2,9 +2,10 @@
 
 ## How to clean blobs (and previous commits) of large files that you accidentally commited to git?
 
-### Removing unwanted git blobs
 
-#### Step 1: List the blobs
+### Step 1: List the blobs
+---
+
 Source: https://gist.github.com/debanga/6d5ffae603ec437ad80ed3c9c268c57b
 
 ```
@@ -13,7 +14,8 @@ Source: https://gist.github.com/debanga/6d5ffae603ec437ad80ed3c9c268c57b
 2. $ ./git_list_blobs.sh
 ```
 
-#### Step 2: Select the blob (and previous commits) you want to remove
+### Step 2: Select the blob (and previous commits) you want to remove
+---
 
 E.g.
 
@@ -26,7 +28,8 @@ Say, blob list looks like this and you want to remove all blobs of `DataManager.
 ...
 
 
-#### Step 2: Remove the blobs
+### Step 2: Remove the blobs
+---
 
 Source: https://gist.github.com/debanga/1c537d38af9d4f48565db2720e3a4ae7
 
