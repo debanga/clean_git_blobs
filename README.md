@@ -1,6 +1,6 @@
 # Remove Unwanted Blobs from Git Commit History
 
-## How to clean blobs (and previous commits) of large files that you accidentally commited to git?
+## How to remove blobs (and previous commits) of large files that you accidentally commited to git?
 
 
 ### Step 1: List the blobs
