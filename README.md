@@ -45,7 +45,7 @@ Say, the blob list obtained in step 1 looks like this and you want to remove all
 
 3. $ ./git-forget-blob.sh Source/DataManager.cpp  # <blob_name> from Step 1
 
-4. $ git remote add origin git clone https://uname:pw@bitbucket.org/xxx/xxx.git
+4. $ git remote add origin https://uname:pw@bitbucket.org/xxx/xxx.git
 
 5. $ git push --set-upstream origin master # Use --force if needed
 
