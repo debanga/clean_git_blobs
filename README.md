@@ -6,7 +6,7 @@
 ### Step 1: List the blobs
 ---
 
-Source: https://gist.github.com/debanga/6d5ffae603ec437ad80ed3c9c268c57b
+- Source: https://gist.github.com/debanga/6d5ffae603ec437ad80ed3c9c268c57b
 
 ```
 1. $ sudo chmod +x git_list_blobs.sh
@@ -19,21 +19,24 @@ Source: https://gist.github.com/debanga/6d5ffae603ec437ad80ed3c9c268c57b
 
 E.g.
 
-Say, blob list looks like this and you want to remove all blobs of `DataManager.cpp`
+Say, the blob list obtained in step 1 looks like this and you want to remove all blobs of `DataManager.cpp`
+
+```
 ...
 100644 blob 2e293f4f101d2683722b9d6a748785fdbd423cba   37190    Source/DataManager.cpp
 100644 blob 8d6aafe62034647427c5a97a6c13bdea851a7461   36643    Source/DataManager.cpp
 100644 blob 05801aeada4bf3f52a71c43d47a6dff390affb51   30308    Source/MainWindow.cpp
 100644 blob 6d5ebc0b617489578dbb8ad3e6dd4663c5f830bb   29550    FtReader/ATIDAQ/xmlrole.c
 ...
+```
 
 
 ### Step 2: Remove the blobs
 ---
 
-Source: https://gist.github.com/debanga/1c537d38af9d4f48565db2720e3a4ae7
+- Source: https://gist.github.com/debanga/1c537d38af9d4f48565db2720e3a4ae7
 
-Also, please refer to https://ownyourbits.com/2017/01/18/completely-remove-a-file-from-a-git-repository-with-git-forget-blob/ for precautions.
+- Also, please refer to https://ownyourbits.com/2017/01/18/completely-remove-a-file-from-a-git-repository-with-git-forget-blob/ for precautions.
 
 ```
 1. $ sudo wget https://raw.githubusercontent.com/nachoparker/git-forget-blob/master/git-forget-blob.sh -O ./git-forget-blob
