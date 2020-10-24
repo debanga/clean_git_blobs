@@ -6,7 +6,7 @@
 ### Step 1: List the blobs
 ---
 
-- Source: https://gist.github.com/debanga/6d5ffae603ec437ad80ed3c9c268c57b
+- Download `git_list_blobs.sh`: https://gist.github.com/debanga/6d5ffae603ec437ad80ed3c9c268c57b
 
 ```
 1. $ sudo chmod +x git_list_blobs.sh
@@ -34,21 +34,21 @@ Say, the blob list obtained in step 1 looks like this and you want to remove all
 ### Step 2: Remove the blobs
 ---
 
-- Source: https://gist.github.com/debanga/1c537d38af9d4f48565db2720e3a4ae7
+- Download `git-forget-blob`: https://gist.github.com/debanga/1c537d38af9d4f48565db2720e3a4ae7
 
 - Also, please refer to https://ownyourbits.com/2017/01/18/completely-remove-a-file-from-a-git-repository-with-git-forget-blob/ for precautions.
 
 ```
 1. $ sudo wget https://raw.githubusercontent.com/nachoparker/git-forget-blob/master/git-forget-blob.sh -O ./git-forget-blob
 
-2. $ sudo chmod +x git-forget-blob
+1. $ sudo chmod +x git-forget-blob
 
-3. Now, commit and push the repo.
+2. Now, commit and push the repo.
 
-4. $ ./git-forget-blob.sh Source/DataManager.cpp  # <blob_name> from Step 1
+3. $ ./git-forget-blob.sh Source/DataManager.cpp  # <blob_name> from Step 1
 
-5. $ git remote add origin git clone https://uname:pw@bitbucket.org/xxx/xxx.git
+4. $ git remote add origin git clone https://uname:pw@bitbucket.org/xxx/xxx.git
 
-6. $ git push --set-upstream origin master # Use --force if needed
+5. $ git push --set-upstream origin master # Use --force if needed
 
 ```
