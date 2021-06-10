@@ -33,6 +33,7 @@ Say, the blob list obtained in step 1 looks like this and you want to remove all
 
 ### Step 2: Remove the blobs
 ---
+(https://ownyourbits.com/2017/01/18/completely-remove-a-file-from-a-git-repository-with-git-forget-blob/ Also works)
 
 - Download `git-forget-blob`: https://gist.github.com/debanga/1c537d38af9d4f48565db2720e3a4ae7
 
